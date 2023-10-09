@@ -1,8 +1,8 @@
 include("model/Charizard.jl")
 
-try
-    charizard = Charizard()
-    println(charizard.nome)
-catch y
-    println("Deu ruim: $y")
-end
+println("Nome -> ", charizard.nome)
+println("Pontos Vida -> ", charizard.pontosVida)
+println("Ataque -> ", charizard.ataque)
+println("Defesa -> ", charizard.defesa)
+println("Ataques -> ", charizard.ataques)
+println("Tipos -> ", charizard.tipos)

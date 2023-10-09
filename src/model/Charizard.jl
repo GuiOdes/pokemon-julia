@@ -1,18 +1,16 @@
-include("../base/Pokemon.jl")
+include("Pokemon.jl")
+include("../base/Habilidade.jl")
+include("../base/Tipo.jl")
 
-struct Charizard <: Pokemon
-    Pokemon(
-        "Charizard",
-        100,
-        100,
-        [
-            Ability("Flamethrower", 10, 10),
-            Ability("Fire Blast", 20, 5),
-            Ability("Wing Attack", 5, 20),
-            Ability("Slash", 15, 10)
-        ],
-        [
-            Tipo(Fogo)
-        ]
-    )
-end
+charizard = Pokemon(
+    "Charizard",
+    78,
+    98,
+    100,
+    [
+        Habilidade("Flamethrower", 100, Tipo("Fire"))
+    ],
+    [
+        Tipo("Fire"), Tipo("Flying")
+    ]
+)
