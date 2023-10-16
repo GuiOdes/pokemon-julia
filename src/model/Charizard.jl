@@ -5,7 +5,8 @@ include("../base/Tipo.jl")
 charizard = Pokemon(
     "Charizard",
     78,
-    98,
+    84,
+    78,
     100,
     [
         Habilidade("Flamethrower", 100, Tipo("Fire"))

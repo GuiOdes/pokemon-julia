@@ -6,6 +6,7 @@ struct Pokemon
     pontosVida::Int
     ataque::Int
     defesa::Int
+    velocidade::Int
     ataques::Array{Habilidade}
     tipos::Array{Tipo}
 end
