@@ -1,6 +1,5 @@
 include("Pokemon.jl")
 include("../base/Habilidade.jl")
-include("../base/Tipo.jl")
 
 charizard = Pokemon(
     "Charizard",
@@ -9,9 +8,11 @@ charizard = Pokemon(
     78,
     100,
     [
-        Habilidade("Flamethrower", 100, Tipo("Fire"))
+        Habilidade("Flamethrower", 100, "Fire"),
+        Habilidade("Fire Blast", 110, "Fire"),
+        Habilidade("Wing Attack", 60, "Flying"),
+        Habilidade("Slash", 70, "Normal")
     ],
-    [
-        Tipo("Fire"), Tipo("Flying")
-    ]
+    ["Fire", "Flying"],
+    45
 )

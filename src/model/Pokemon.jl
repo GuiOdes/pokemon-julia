@@ -8,5 +8,6 @@ struct Pokemon
     defesa::Int
     velocidade::Int
     ataques::Array{Habilidade}
-    tipos::Array{Tipo}
+    tipos::Array{String}
+    nivel::Int
 end
