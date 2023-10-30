@@ -1,0 +1,29 @@
+include("../model/Alakazan.jl")
+include("../model/Blastoise.jl")
+include("../model/Blaziken.jl")
+include("../model/Charizard.jl")
+include("../model/Crowbat.jl")
+include("../model/Gengar.jl")
+include("../model/Gyarados.jl")
+include("../model/Marowak.jl")
+include("../model/Raichu.jl")
+include("../model/Sceptile.jl")
+include("../model/Slowbro.jl")
+include("../model/Snorlax.jl")
+include("../model/Venusaur.jl")
+
+listaPokemon = [
+    alakazan,
+    blastoise,
+    blaziken,
+    charizard,
+    crowbat,
+    gengar,
+    gyarados,
+    marowak,
+    raichu,
+    sceptile,
+    slowbro,
+    snorlax,
+    venusaur
+]
