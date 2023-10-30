@@ -2,7 +2,7 @@ include("Pokemon.jl")
 
 gyarados = Pokemon(
     "Gyarados",
-    95,
+    1000,
     125,
     79,
     81,

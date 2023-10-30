@@ -2,7 +2,7 @@ include("Pokemon.jl")
 
 marowak = Pokemon(
     "Marowak",
-    60,
+    1000,
     80,
     110,
     50,
