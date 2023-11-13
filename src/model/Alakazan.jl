@@ -2,7 +2,7 @@ include("Pokemon.jl")
 
 alakazan = Pokemon(
     "Alakazan",
-    55,
+    10,
     50,
     45,
     120,

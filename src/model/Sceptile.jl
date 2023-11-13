@@ -2,7 +2,7 @@ include("Pokemon.jl")
 
 sceptile = Pokemon(
     "Sceptile",
-    70,
+    1000,
     85,
     65,
     120,

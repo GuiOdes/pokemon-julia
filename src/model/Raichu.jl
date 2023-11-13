@@ -2,7 +2,7 @@ include("Pokemon.jl")
 
 raichu = Pokemon(
     "Raichu",
-    60,
+    1000,
     90,
     55,
     100,

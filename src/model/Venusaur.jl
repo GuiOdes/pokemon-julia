@@ -2,8 +2,8 @@ include("Pokemon.jl")
 include("../base/Habilidade.jl")
 
 venusaur = Pokemon(
-    "venusaur",
-    80,
+    "Venusaur",
+    1000,
     82,
     83,
     80,

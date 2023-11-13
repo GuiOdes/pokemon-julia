@@ -3,7 +3,7 @@ include("../base/Habilidade.jl")
 
 charizard = Pokemon(
     "Charizard",
-    78,
+    1000,
     84,
     78,
     100,
