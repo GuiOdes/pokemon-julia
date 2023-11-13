@@ -1,7 +1,7 @@
 
 include("../base/Habilidade.jl")
 
-struct Pokemon
+mutable struct Pokemon
     nome::String
     pontosVida::Int
     ataque::Int

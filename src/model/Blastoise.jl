@@ -2,7 +2,7 @@ include("Pokemon.jl")
 
 blastoise = Pokemon(
     "Blastoise",
-    79,
+    1000,
     83,
     100,
     78,

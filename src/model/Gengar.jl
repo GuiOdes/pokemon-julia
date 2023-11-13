@@ -2,7 +2,7 @@ include("Pokemon.jl")
 
 gengar = Pokemon(
     "Gengar",
-    60,
+    1000,
     65,
     60,
     110,

@@ -1,26 +1,22 @@
-include("model/Sceptile.jl")
-include("model/Venusaur.jl")
-include("model/Snorlax.jl")
-include("model/Gyarados.jl")
 include("base/Combate.jl")
+include("base/ListaPokemons.jl")
+include("base/PokemonUtils.jl")
+include("base/Utils.jl")
 
-sceptileBatalha = sceptile.pontosVida
-danoAtaque = calculaDanoAtaque(gyarados, sceptile, gyarados.ataques[1])
-println("Sceptile: " * string(sceptileBatalha) * " HP\n")
-sceptileBatalha -= danoAtaque
-println(danoAtaque)
-println("Sceptile: " * string(sceptileBatalha) * " HP\n")
+println("Escolha seu pokemon: ")
+for (index, pokemon) in enumerate(listaPokemon)
+    println(index, " - ", pokemon.nome)
+end
 
-venusaurBatalha = venusaur.pontosVida
-danoAtaque2 = calculaDanoAtaque(gyarados, venusaur, gyarados.ataques[1])
-println("Venusaur: " * string(venusaurBatalha) * " HP\n")
-venusaurBatalha -= danoAtaque2
-println(danoAtaque2)
-println("Venusaur: " * string(venusaurBatalha) * " HP\n")
+print("\nFaça sua escolha -> ")
+indexEscolhido = readline()
+pokemonEscolhido = listaPokemon[parse(Int64, indexEscolhido)]
+println("Seu pokemón escolhido é: ", pokemonEscolhido.nome)
 
-snorlaxBatalha = snorlax.pontosVida
-danoAtaque3 = calculaDanoAtaque(gyarados, snorlax, gyarados.ataques[1])
-println("Snorlax: " * string(snorlaxBatalha) * " HP\n")
-snorlaxBatalha -= danoAtaque3
-println(danoAtaque3)
-println("Snorlax: " * string(snorlaxBatalha) * " HP\n")
+listaSemOPokemonEscolhido = filter(x -> x != pokemonEscolhido, listaPokemon)
+pokemonCpu = listaSemOPokemonEscolhido[rand(1:length(listaPokemon))]
+println("Você lutará contra: ", pokemonCpu.nome)
+
+esperaEApagaTerminal(2)
+
+iniciarCombate(pokemonCpu, pokemonEscolhido)
