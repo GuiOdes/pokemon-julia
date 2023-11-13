@@ -1,11 +1,11 @@
 include("Pokemon.jl")
 
-crowbat = Pokemon(
-    "Crowbat",
-    85,
-    90,
-    80,
-    130,
+crobat = Pokemon(
+    "Crobat",
+    374,
+    306,
+    284,
+    394,
     [
         Habilidade("Air Slash", 75, "Flying"),
         Habilidade("Sludge Bomb", 90, "Poison"),
@@ -13,5 +13,5 @@ crowbat = Pokemon(
         Habilidade("Shadow Ball", 80, "Ghost")
     ],
     ["Poison", "Flying"],
-    45
+    100
 )

@@ -2,10 +2,10 @@ include("Pokemon.jl")
 
 gyarados = Pokemon(
     "Gyarados",
-    95,
-    125,
-    79,
-    81,
+    394,
+    383,
+    328,
+    287,
     [
         Habilidade("Hydro Pump", 110, "Water"),
         Habilidade("Hyper Beam", 150, "Normal"),
@@ -13,5 +13,5 @@ gyarados = Pokemon(
         Habilidade("Bite", 60, "Dark")
     ],
     ["Water", "Flying"],
-    45
+    100
 )

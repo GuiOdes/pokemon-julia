@@ -2,10 +2,10 @@ include("Pokemon.jl")
 
 marowak = Pokemon(
     "marowak",
-    60,
-    80,
-    110,
-    50,
+    324,
+    284,
+    350,
+    207,
     [
         Habilidade("Bonemerang", 50, "Ground"),
         Habilidade("Earthquake", 100, "Ground"),
@@ -13,5 +13,5 @@ marowak = Pokemon(
         Habilidade("Double-Edge", 120, "Normal")
     ],
     ["Ground"],
-    45
+    100
 )

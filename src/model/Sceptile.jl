@@ -2,10 +2,10 @@ include("Pokemon.jl")
 
 sceptile = Pokemon(
     "Sceptile",
-    70,
-    85,
-    65,
-    120,
+    344,
+    339,
+    295,
+    372,
     [
         Habilidade("Leaf Blade", 90, "Grass"),
         Habilidade("Dragon Claw", 80, "Dragon"),
@@ -13,5 +13,5 @@ sceptile = Pokemon(
         Habilidade("Rock Slide", 75, "Rock")
     ],
     ["Grass"],
-    45
+    100
 )

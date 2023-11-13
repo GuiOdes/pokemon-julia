@@ -2,10 +2,10 @@ include("Pokemon.jl")
 
 slowbro = Pokemon(
     "Slowbro",
-    95,
-    75,
-    110,
-    30,
+    394,
+    350,
+    328,
+    174,
     [
         Habilidade("Surf", 90, "Water"),
         Habilidade("Ice Beam", 90, "Ice"),
@@ -13,5 +13,5 @@ slowbro = Pokemon(
         Habilidade("Thunderbolt", 90, "Electric")
     ],
     ["Water", "Psychic"],
-    45
+    100
 )

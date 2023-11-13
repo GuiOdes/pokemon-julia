@@ -2,10 +2,10 @@ include("Pokemon.jl")
 
 blastoise = Pokemon(
     "Blastoise",
-    79,
-    83,
-    100,
-    78,
+    362,
+    295,
+    328,
+    280,
     [
         Habilidade("Hydro Pump", 110, "Water"),
         Habilidade("Surf", 90, "Water"),
@@ -13,5 +13,5 @@ blastoise = Pokemon(
         Habilidade("Ice Beam", 90, "Ice")
     ],
     ["Water"],
-    45
+    100
 )

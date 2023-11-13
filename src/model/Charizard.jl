@@ -3,10 +3,10 @@ include("../base/Habilidade.jl")
 
 charizard = Pokemon(
     "Charizard",
-    78,
-    84,
-    78,
-    100,
+    360,
+    348,
+    295,
+    328,
     [
         Habilidade("Flamethrower", 100, "Fire"),
         Habilidade("Fire Blast", 110, "Fire"),
@@ -14,5 +14,5 @@ charizard = Pokemon(
         Habilidade("Slash", 70, "Normal")
     ],
     ["Fire", "Flying"],
-    45
+    100
 )
