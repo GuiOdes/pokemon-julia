@@ -1,8 +1,8 @@
-include("../model/Alakazan.jl")
+include("../model/Alakazam.jl")
 include("../model/Blastoise.jl")
 include("../model/Blaziken.jl")
 include("../model/Charizard.jl")
-include("../model/Crowbat.jl")
+include("../model/Crobat.jl")
 include("../model/Gengar.jl")
 include("../model/Gyarados.jl")
 include("../model/Marowak.jl")
@@ -13,11 +13,11 @@ include("../model/Snorlax.jl")
 include("../model/Venusaur.jl")
 
 listaPokemon = [
-    alakazan,
+    alakazam,
     blastoise,
     blaziken,
     charizard,
-    crowbat,
+    crobat,
     gengar,
     gyarados,
     marowak,
