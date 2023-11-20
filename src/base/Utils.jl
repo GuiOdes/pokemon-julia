@@ -1,8 +1,13 @@
 include("CalculoResistencia.jl")
+comando = `clear`
+
+if (Sys.iswindows())
+    comando = `cls`
+end
 
 function esperaEApagaTerminal(segundos::Int64)
     sleep(segundos)
-    run(`clear`)
+    run(comando)
 end
 
 function escolherAtaqueSuperEfetivoContraPokemon(pokemonAtaque::Pokemon, pokemonDefesa::Pokemon)
