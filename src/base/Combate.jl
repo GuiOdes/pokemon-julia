@@ -45,7 +45,7 @@ function iniciarCombate(pokemonCpu::Pokemon, pokemonEscolhido::Pokemon)
     thread1 = Threads.@spawn pokemonCpu
     thread2 = Threads.@spawn pokemonEscolhido
     while true
-        esperaEApagaTerminal(4)
+        esperaEApagaTerminal(3)
 
         println(pokemonCpu.nome, " - ", pokemonCpu.pontosVida, " HP")
         println(pokemonEscolhido.nome, " - ", pokemonEscolhido.pontosVida, " HP")
