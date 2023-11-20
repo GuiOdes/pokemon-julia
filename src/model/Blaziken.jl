@@ -2,10 +2,10 @@ include("Pokemon.jl")
 
 blaziken = Pokemon(
     "Blaziken",
-    1000,
-    120,
-    70,
-    80,
+    364,
+    372,
+    262,
+    284,
     [
         Habilidade("Blaze Kick", 85, "Fire"),
         Habilidade("Sky Uppercut", 85, "Fighting"),
@@ -13,5 +13,5 @@ blaziken = Pokemon(
         Habilidade("Rock Slide", 75, "Rock")
     ],
     ["Fire", "Fighting"],
-    45
+    100
 )

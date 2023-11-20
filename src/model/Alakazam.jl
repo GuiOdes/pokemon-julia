@@ -1,11 +1,11 @@
 include("Pokemon.jl")
 
-alakazan = Pokemon(
-    "Alakazan",
-    10,
-    50,
-    45,
-    120,
+alakazam = Pokemon(
+    "Alakazam",
+    314,
+    405,
+    317,
+    372,
     [
         Habilidade("Psychic", 90, "Psychic"),
         Habilidade("Shadow Ball", 80, "Ghost"),
@@ -13,5 +13,5 @@ alakazan = Pokemon(
         Habilidade("Ice Beam", 90, "Ice")
     ],
     ["Psychic"],
-    45
+    100
 )

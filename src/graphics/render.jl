@@ -1,5 +1,6 @@
 using GLVisualize, GeometryTypes, GLAbstraction
 
+
 # Cria um triângulo
 positions = Point3f0[(0, 0, 0), (1, 0, 0), (0, 1, 0)]
 faces = Face{3}[(1, 2, 3)]

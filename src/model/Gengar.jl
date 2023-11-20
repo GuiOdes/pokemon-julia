@@ -2,10 +2,10 @@ include("Pokemon.jl")
 
 gengar = Pokemon(
     "Gengar",
-    1000,
-    65,
-    60,
-    110,
+    324,
+    394,
+    273,
+    350,
     [
         Habilidade("Shadow Ball", 80, "Ghost"),
         Habilidade("Sludge Bomb", 90, "Poison"),
@@ -13,5 +13,5 @@ gengar = Pokemon(
         Habilidade("Thunderbolt", 90, "Electric")
     ],
     ["Ghost", "Poison"],
-    45
+    100
 )

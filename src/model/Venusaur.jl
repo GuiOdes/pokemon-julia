@@ -3,10 +3,10 @@ include("../base/Habilidade.jl")
 
 venusaur = Pokemon(
     "Venusaur",
-    1000,
-    82,
-    83,
-    80,
+    364,
+    328,
+    328,
+    284,
     [
         Habilidade("Giga Drain", 75, "Grass"),
         Habilidade("Sludge Bomb", 90, "Poison"),
@@ -14,5 +14,5 @@ venusaur = Pokemon(
         Habilidade("Body Slam", 85, "Normal")
     ],
     ["Grass", "Poison"],
-    45
+    100
 )

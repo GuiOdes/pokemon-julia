@@ -2,10 +2,10 @@ include("Pokemon.jl")
 
 raichu = Pokemon(
     "Raichu",
-    1000,
-    90,
-    55,
-    100,
+    324,
+    306,
+    284,
+    350,
     [
         Habilidade("Thunderbolt", 90, "Electric"),
         Habilidade("Thunder", 110, "Electric"),
@@ -13,5 +13,5 @@ raichu = Pokemon(
         Habilidade("Mega Kick", 120, "Normal")
     ],
     ["Electric"],
-    45
+    100
 )
