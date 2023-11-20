@@ -1,9 +1,6 @@
 include("CalculoResistencia.jl")
-comando = `clear`
 
-if (Sys.iswindows())
-    comando = `cls`
-end
+Sys.iswindows() ? comando = `cls` : comando = `clear`
 
 function esperaEApagaTerminal(segundos::Int64)
     sleep(segundos)
